@@ -30,6 +30,6 @@ int main(void)
    /*length 7*/
    int x = solution(A, 7);
    
-   /*Should be */
+   /*Should be 7*/
    printf("Result is %d", x);
 }
