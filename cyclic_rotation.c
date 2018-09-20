@@ -25,10 +25,8 @@ struct Results solution(int A[], int N, int K)
 {
     struct Results result;
 
-    for (int i = 0; i < K; i++)
-    {
-        for (int ii = N - 1; ii > 0; ii--)
-        {
+    for (int i = 0; i < K; i++) {
+        for (int ii = N - 1; ii > 0; ii--) {
             int tmp = A[ii];
             A[ii] = A[ii - 1];
             A[ii - 1] = tmp;
