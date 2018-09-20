@@ -14,8 +14,7 @@ int solution(int A[], int N)
 {
     int result = 0;
 
-    for (int i = 0; i < N; i++)
-    {
+    for (int i = 0; i < N; i++) {
         result = result ^ A[i];
     }
 
