@@ -23,6 +23,8 @@ struct Results
 
 struct Results solution(int A[], int N, int K)
 {
+    struct Results result;
+
     for (int i = 0; i < K; i++)
     {
         for (int ii = N - 1; ii > 0; ii--)
@@ -32,11 +34,9 @@ struct Results solution(int A[], int N, int K)
             A[ii - 1] = tmp;
         }
     }
-    
-    struct Results result;
-
     result.A = A;
     result.N = N;
+
     return result;
 }
 
