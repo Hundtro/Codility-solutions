@@ -25,7 +25,7 @@ int solution(int N)
         } else {
             N = N / 2;
             if (isgap)
-                length = length + 1;
+                length++;
         }
     }
     
