@@ -34,6 +34,9 @@ int solution(int N)
 
 int main(void)
 {
+    /*binary of 561892 is 10001001001011100100*/
     int x = solution(561892);
+    
+    /*Should be 3*/
     printf("Result is %d", x);
 }
