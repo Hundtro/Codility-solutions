@@ -34,6 +34,7 @@ int main(void)
     /*Array to test*/
     int A[5] = {3, 1, 2, 4, 3};
     
+    /*Length is 5*/
     int x = solution(A, 5);
     
     /*Should be 1*/
